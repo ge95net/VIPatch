@@ -86,4 +86,4 @@ python patch/black_box_attack.py
 
 ## Change Parameters
 
-You can change every parameters in the 'patch/config.py'
+You can change every parameter in the 'patch/config.py'
