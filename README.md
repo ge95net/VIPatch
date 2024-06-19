@@ -59,21 +59,37 @@ Download the dataset from [Speaking Faces](https://issai.nu.edu.kz/speaking-face
 The directory structure example is:
 '''
 datasets
+
   -thermal
+  
     --gray
+    
       ---train
+      
         ----pic001
+        
         ----pic002
+        
       ---test
+      
         ----pic001
+        
         ----pic002
+        
     --rgb
+    
       ---train
+      
         ----pic001
+        
         ----pic002
+        
       ---test
+      
         ----pic001
+        
         ----pic002
+        
 '''
 
 
