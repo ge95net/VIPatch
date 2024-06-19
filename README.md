@@ -3,11 +3,15 @@
 ## Abstract
 Deep learning-based visual-infrared fused face detection models are increasingly utilized across various applications but have been shown to be susceptible to adversarial patch attacks. Most previous attacks have primarily targeted either the visual or infrared image alone in the digital domain, proving ineffective against visual-infrared fused face detection models in the physical world, and most of these existing methods are suspicious as their patched pattern significantly deviates from real-world patterns. In this paper, we introduce a novel physical adversarial patch attack, named VIPatch (Visual-Infrared Patch), which produces inconspicuous, realistic, and natural-looking patches for facial images. Specifically, this is accomplished by creating a gradient color mask and applying a band-aid sticker across both the visual and infrared images, with joint optimization of these two elements, and the generated digital patches could also guide the creation of their physical patches. Experimental results show that our method achieves competitive overall attack success rates (over 90%) in both digital and physical domains, and the patches created by our method are designed to attract minimal attention.
 
+<img src="https://github.com/ge95net/ca_Lidar/blob/master/demo/exp2.png" width="500" />
+
 ## setup
 ```
 1.git clone git@github.com:ge95net/VIPatch.git
 
-2.pip install -r requirements.txt
+2, cd VIPatch
+
+3.pip install -r requirements.txt
 ```
 
 
