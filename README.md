@@ -12,15 +12,42 @@
 
 ## Face Detection Model
 1, Yolov5-Face
+
 Download the checkpoints:  [Yolov5-Face](https://github.com/deepcam-cn/yolov5-face#pretrained-models).
+
 put it in the 'weights/'
 
 2, Yolov8-Face
+
 Download the checkpoints: [Yolov8-Face](https://github.com/derronqi/yolov8-face).
+
 put it in the 'weights/'
 
 3,OpenCV
+
 Download the checkpoints: opencv_face_detector.pbtxt and opencv_face_detector_uint8.pb from [OpenCV](https://github.com/spmallick/learnopencv/tree/master/AgeGender).
+
 Put it in the 'models/'
 
-4, 
+4, Retinaface
+
+Following the instruction of [Retinaface](https://github.com/serengil/retinaface)
+
+5, 
+
+##Image Harmonization
+
+Follow the instruction of [libcom](https://github.com/bcmi/libcom?tab=readme-ov-file) to install the toolbox.
+
+
+## Sticker
+Require:
+(1) BFM
+Following the instruction of [Face3D](https://github.com/yfeng95/face3d) to Download the BFM.dat
+
+put it in the 'models/BFM/'
+
+(2)Shape predictor for face landmarks ([68](https://github.com/r4onlyrishabh/facial-detection/tree/master/dataset), [81](https://github.com/codeniko/shape_predictor_81_face_landmarks))
+
+
+
