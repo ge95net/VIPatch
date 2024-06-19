@@ -58,7 +58,7 @@ Download the dataset from [Speaking Faces](https://issai.nu.edu.kz/speaking-face
 
 The directory structure example is:
 
-'''
+```
 datasets
   -thermal
   
@@ -89,7 +89,7 @@ datasets
         ----pic001
         
         ----pic002
-'''
+```
 
 
 
