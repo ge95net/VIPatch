@@ -33,9 +33,12 @@ Put it in the 'models/'
 
 Following the instruction of [Retinaface](https://github.com/serengil/retinaface)
 
-5, 
+5, Mogface
+Download the checkpoints: [Mogface](https://github.com/damo-cv/MogFace?tab=readme-ov-file)
 
-##Image Harmonization
+put it in the ''models/MogFace/configs/mogface/'
+
+## Image Harmonization
 
 Follow the instruction of [libcom](https://github.com/bcmi/libcom?tab=readme-ov-file) to install the toolbox.
 
@@ -48,6 +51,30 @@ Following the instruction of [Face3D](https://github.com/yfeng95/face3d) to Down
 put it in the 'models/BFM/'
 
 (2)Shape predictor for face landmarks ([68](https://github.com/r4onlyrishabh/facial-detection/tree/master/dataset), [81](https://github.com/codeniko/shape_predictor_81_face_landmarks))
+
+## Data Preparation
+
+Download the dataset from [Speaking Faces](https://issai.nu.edu.kz/speaking-faces/)
+
+The directory structure example is:
+'''
+datasets
+  -thermal
+    --gray
+      ---train
+        ----pic001
+        ----pic002
+      ---test
+        ----pic001
+        ----pic002
+    --rgb
+      ---train
+        ----pic001
+        ----pic002
+      ---test
+        ----pic001
+        ----pic002
+'''
 
 
 
