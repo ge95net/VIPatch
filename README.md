@@ -83,3 +83,7 @@ datasets
 python patch/black_box_attack.py
 ```
 
+
+## Change Parameters
+
+You can change every parameters in the 'patch/config.py'
