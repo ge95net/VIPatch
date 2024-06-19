@@ -57,9 +57,9 @@ put it in the 'models/BFM/'
 Download the dataset from [Speaking Faces](https://issai.nu.edu.kz/speaking-faces/)
 
 The directory structure example is:
+
 '''
 datasets
-
   -thermal
   
     --gray
@@ -89,7 +89,6 @@ datasets
         ----pic001
         
         ----pic002
-        
 '''
 
 
