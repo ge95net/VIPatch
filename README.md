@@ -61,9 +61,7 @@ The directory structure example is:
 ```
 datasets
   -thermal
-  
     --gray
-    
       ---train
       
         ----pic001
