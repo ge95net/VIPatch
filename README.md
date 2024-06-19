@@ -54,7 +54,7 @@ put it in the 'models/BFM/'
 
 ## Data Preparation
 
-Download the dataset from [Speaking Faces](https://issai.nu.edu.kz/speaking-faces/)
+Download the dataset from [Speaking Faces](https://issai.nu.edu.kz/speaking-faces/) and put it in the folder 'datasets/'
 
 The directory structure example is:
 
@@ -77,5 +77,8 @@ datasets
         ----pic002
 ```
 
-
+## Quick Start
+```
+python patch/black_box_attack.py
+```
 
