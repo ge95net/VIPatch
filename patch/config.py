@@ -12,7 +12,7 @@ class BaseConfiguration:
         self.n_queries = 10000
         self.p_init = 0.4
         self.threshold = 0
-        self.visual_threshold = 0.83 # yolov5=0.83, yolov8,opencv_dnn_scrfd,scrfd = 0.8, mtcnn,retinaface,ulfd = 0.95
+        self.visual_threshold = 0.83 # yolov5=0.83, yolov8,opencv_dnn_scrfd,scrfd = 0.8, mtcnn,retinaface,ulfd = 0.97 #  These thresholds are kept consistent across all comparison methods.
         self.thermal_threshold = 0.6
         self.num_aug = 1
         self.patch_name = 'base'
